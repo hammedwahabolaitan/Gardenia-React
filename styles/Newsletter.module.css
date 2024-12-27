@@ -1,0 +1,67 @@
+
+
+.container {
+    background-color: rgb(224, 224, 224);
+    margin-top: 4rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0; 
+    align-items: center;
+    font-size: 2rem;
+}
+
+.subheader {
+    padding: 0rem 0.5rem;
+}
+
+.icon {
+    margin: 0 1rem;
+    transform: scale(1.5);
+}
+
+.input_container {
+    padding-bottom: 2rem;
+}
+
+.input {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    width: 25rem;
+}
+
+.button {
+    margin-left: 1rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    width: 16rem;
+}
+
+
+.button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .header {
+        font-size: 1.5rem;
+    }
+    .input {
+        width: 15rem;
+    }
+    .button {
+        width: 8rem;
+    }
+}
+

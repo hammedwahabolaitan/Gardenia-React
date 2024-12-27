@@ -1,0 +1,48 @@
+
+.container {
+    background-color: #78a3ab;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 20rem 0rem 20rem;
+}
+
+.text {
+    padding-top: 1rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.description {
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        margin: 2rem 4rem;
+        padding: 0 2.5rem;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 850px) {
+    .container {
+        margin: 4rem 0rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 4rem 0rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+}

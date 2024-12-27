@@ -1,0 +1,139 @@
+
+
+.container {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 4rem;
+}
+
+.img {
+    width: auto;
+    height: auto;
+    max-width: 30rem; 
+}
+
+.product_name {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Dancing Script', cursive;
+    color: pink;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.price {
+    margin-left: 1rem;
+    padding-top: 0.25rem;
+    color: black;
+}
+
+.card {
+    display: flex;
+    padding: 1rem;
+}
+
+.card_description {
+    padding: 2rem 0 0 0;
+}
+
+.card_details {
+    display: flex;
+}
+
+.card_details p {
+    padding: 0.25rem 1rem 1rem 1rem;
+}
+
+.card_footer {
+    padding: 2rem 0; 
+}
+
+.card_btn {
+    padding: 1rem 6rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card_btn:hover {
+    background-color: rgb(224, 212, 181);
+    transition: 0.2s ease-in-out;
+   
+}
+
+.payment {
+    width: 8rem;
+    height: 6rem;
+}
+
+.no_add {
+    color: green;
+}
+
+
+
+
+/* Media Queries */
+
+
+
+@media (max-width: 1200px) {
+
+    .container {
+        margin: 0rem 1rem;  
+    }
+
+    .card_details p {
+        padding: 0.25rem 1rem;
+    }
+
+    .payment {
+        width: 6rem;
+        height: 5rem;
+    }
+}
+
+
+@media (max-width: 950px) {
+
+    .container {
+        margin: 3rem 1rem;
+        display: block;
+    }
+
+    .product_name {
+        justify-content: space-evenly;
+    }
+
+    .card {
+        display: block;
+        text-align: center;
+    }
+
+    .card_btn {
+        padding: 1rem;
+    }
+
+    .card_details p {
+        padding: 0.25rem 0.25rem 1rem 1rem;
+    }
+
+    .payment {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .img {
+        max-width: 20rem; 
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .img {
+        max-width: 15rem; 
+    }
+
+}

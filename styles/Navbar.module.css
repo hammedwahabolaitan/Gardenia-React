@@ -1,0 +1,75 @@
+
+
+
+.burgerMenuIcon {
+    display: none;
+    color: white;
+  }
+
+.links_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    text-align: center;
+    color:brown;
+    opacity: 0.8;
+    padding: 1rem 2rem;
+}
+
+.links:hover {
+    opacity: 1;
+}
+
+img {
+    padding: 1rem;
+}
+
+
+
+@media (max-width: 1150px) {
+    .links_container {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 850px) {
+    .burgerMenuIcon {
+      display: block;
+      position: absolute;
+      cursor: pointer;
+      margin-top: 1rem;
+      left: 1rem;
+      color: black;
+      z-index: 1001; /* Ensure the icon is above the menu */
+      }
+      .closeIcon {
+        color: white;
+      }
+      .links_container {
+        display: none;
+      }
+    .links {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    .links:hover {
+      color: white;
+    }
+    .burgerMenuOpen {
+      position: fixed; /* Fixed position to cover the whole screen */
+      top: 0;
+      left: 0;
+      width: 100vw; /* Full viewport width */
+      height: 100vh; /* Full viewport height */
+      background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent background */
+      z-index: 1000; /* High z-index to ensure it's above other content */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+}
+

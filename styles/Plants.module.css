@@ -1,0 +1,93 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 12rem;
+  }
+  
+  .title {
+    text-align: center;
+    justify-content: center;
+    margin-top: 8rem;
+  }
+  
+  .card {
+    text-align: center;
+    align-items: center;
+  }
+  
+  img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  
+  .info {
+    font-family: 'Dancing Script', cursive;
+    color: pink;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .price {
+    color: black;
+    padding-top: 1rem;
+  }
+  
+  .btn_container {
+    text-align: center;
+    margin-top: 4rem;
+  }
+  
+  .btn {
+    padding: 1rem 2rem;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: rgb(224, 212, 181);
+    color: black;
+    transition-duration: 0.25s;
+    cursor: pointer;
+  }
+  
+  
+  .caption {
+    color: black;
+    margin-top: 1rem;
+  }
+  
+  .caption:hover {
+    cursor: pointer;
+    color: rgb(248, 182, 15);
+  }
+  
+  
+  /* MEDIA QUERIES */
+  
+  
+  @media (max-width: 1600px) {
+    .container {
+      margin: 2rem 0rem;
+    }
+    
+    .title {
+      margin-right: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .info {
+      font-size: 1rem;
+    }
+    .btn {
+      font-size: 0.75rem;
+    }
+    .title {
+      margin-top: 4rem;
+    }
+  
+  }
